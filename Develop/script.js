@@ -54,11 +54,7 @@ function generatePassword() {
     var randomIndex = Math.floor(Math.random() * allChars.length);
     generatedPassword += allChars.charAt(randomIndex);
   }
-<<<<<<< HEAD
 
   //returns randomly generated password to user
-=======
-//command to display/return randomly generated password 
->>>>>>> 550429d76e385f2d492cdbe9bd6c876e69a70882
   return generatedPassword;
 }
